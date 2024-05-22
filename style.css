@@ -466,6 +466,9 @@ body{
     h4{
         margin-bottom: 5px;
     }
+    .title h3{
+	font-size: 30px;    
+    }
 }
 
 @media (max-width:361px ){
