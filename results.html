@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>NTC</title>
+    <style>
+
+    </style>
+</head>
+<body class="results">
+    <header class="header" id="header" >
+        <a href="index.html" class="logo" style="color: rgba(0, 0, 0, 0.616);" ><img class="name" src="img/name.png" alt="NTC" srcset=""></a>
+
+        <input type="checkbox" id="check"> 
+        <label for="check" class="icons">
+            <ion-icon name="menu-outline" id="menu-icon" style="color: rgba(0, 0, 0, 0.616);"></ion-icon>
+            <ion-icon name="close-outline" id="close-icon" style="color: rgba(0, 0, 0, 0.616);"></ion-icon>
+        </label>
+
+        <nav class="navbarr">
+            <a href="aboutUs.html"style='--i:0; color: rgba(0, 0, 0, 0.9);'>About Us</a>
+            <a href="gallery.html"style='--i:1; color: rgba(0, 0, 0, 0.9);'>Gallery</a>
+            <a href="demolectures.html"style='--i:2; color: rgba(0, 0, 0, 0.9);'>Demo Lectures</a>
+            <a href="results.html"style='--i:3; color: rgba(0, 0, 0, 0.9);'>Results</a>
+            <a href="contact.html"style='--i:4; color: rgba(0, 0, 0, 0.9);'>Contact Us</a>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 9</div>
+            <img src="img/results/result-1.jpg" style="width:100%">
+        
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 9</div>
+            <img src="img/results/result-2.jpg" style="width:100%">
+         
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/results/result-3.jpg" style="width:100%">
+         
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 9</div>
+            <img src="img/results/result-4.jpg" style="width:100%">
+         
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 9</div>
+            <img src="img/results/result-5.jpg" style="width:100%">
+       
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 9</div>
+            <img src="img/results/result-6.jpg" style="width:100%">
+          
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 9</div>
+            <img src="img/results/result-7.jpg" style="width:100%">
+            
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 9</div>
+            <img src="img/results/result-8.jpg" style="width:100%">
+           
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 9</div>
+            <img src="img/results/result-9.jpg" style="width:100%">
+            
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <button class="nav-button" onclick="currentSlide(1)">2015-16</button>
+        <button class="nav-button" onclick="currentSlide(2)">2016-17</button>
+        <button class="nav-button" onclick="currentSlide(3)">2017-18</button>
+        <button class="nav-button" onclick="currentSlide(4)">2018-19</button>
+        <button class="nav-button" onclick="currentSlide(5)">2019-20</button>
+        <button class="nav-button" onclick="currentSlide(6)">2020-21</button>
+        <button class="nav-button" onclick="currentSlide(7)">2021-22</button>
+        <button class="nav-button" onclick="currentSlide(8)">2022-23</button>
+        <button class="nav-button" onclick="currentSlide(9)">2022-23 [CUET]</button>
+
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>        
+        <ul class="social_icon">
+            <li><a href="https://www.facebook.com/ntcphysics/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/nishant_physics/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="demolectures.html">Demo Lectures</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>©2024 Nishant Tanwar Classes | All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>  
